@@ -46,7 +46,7 @@
 [4.914567, "o", "\r\n"]
 [9.807934, "o", "🦥 Gemma via llama-server: 4.8s. Nothing left this machine.\r\n\r\nfix(cli): add GPA calculation fix\r\n\r\n- Fixed a potential error in the GPA calculation by adding a check for\r\n  unknown grades and raising an UnknownGradeError\r\n- Implemented a check to ensure grades are valid before calculating GPA\r\n\r\n"]
 [9.812217, "o", "[main d1b12aa] fix(cli): add GPA calculation fix\r\n 2 files changed, 13 insertions(+), 2 deletions(-)\r\n"]
-[12.326004, "o", "\u001b[2m# Gemma 3 1B wrote that on a 2-vCPU box, offline. Now the weekly report for my advisor:\u001b[0m\r\n"]
+[12.326004, "o", "\u001b[2m# Gemma 3 1B wrote that on a 2-vCPU box, offline. Now the weekly report for my study group:\u001b[0m\r\n"]
 [13.527241, "o", "\u001b[1;32mzhixin\u001b[0m:\u001b[1;34m~/gpa-calc\u001b[0m$ "]
 [13.527357, "o", "s"]
 [13.563479, "o", "l"]

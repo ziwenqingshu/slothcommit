@@ -16,7 +16,7 @@ say() { printf '\e[2m# %s\e[0m\n' "$1"; sleep 1.2; }
 say "11:40 pm. I just fixed a bug and have zero energy left to describe it."
 type_run "git diff --cached --stat" 1.5
 type_run "sloth commit -y" 2.5
-say "Gemma 3 1B wrote that on a 2-vCPU box, offline. Now the weekly report for my advisor:"
+say "Gemma 3 1B wrote that on a 2-vCPU box, offline. Now the weekly report for my study group:"
 type_run "sloth week --lang zh | head -n 6" 3
 say "And if I'm too lazy to even type 'sloth':"
 type_run "sloth hook install" 1
