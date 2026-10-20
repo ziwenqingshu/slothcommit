@@ -19,7 +19,9 @@ fix(cli): add GPA calculation fix
 ```
 
 *(That's a real, unedited output from Gemma 3 **1B**. It's a first draft, not
-an oracle: `sloth commit` asks Yes / Edit / No before committing.)*
+an oracle: `sloth commit` asks Yes / Edit / No before committing. Every commit
+in **this** repo's history was written by SlothCommit and left unedited, so you
+can judge the quality yourself.)*
 
 ## What it does
 

@@ -45,3 +45,11 @@ Use `llama-server` or Ollama if you can; keep the in-process backend for
   Ollama binary inside the sandbox, so it has no live timing here.
 * Gemma 3 4B (Q4_0) read prompts at ~40 tok/s here and got OOM-killed while
   the 1B server was also loaded, so it is not benchmarked end-to-end.
+
+## Dogfooding: this repo's own history
+
+Every commit in this repository was written by `sloth commit -y` and pushed
+unedited, warts included (one `.gitignore` commit is typed `feat`, and a couple
+of bodies claim benefits nobody measured). The ten commits that built the
+project took 3.0 s - 8.5 s each, 53.6 s in total, mean 5.4 s. The slow ones are
+the new-file commits whose diffs had to be condensed.
